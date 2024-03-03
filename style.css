@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(184, 236, 236);
+    margin-bottom: 10px;
+}
+
+video {
+    width: 100vw;
+     height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+     right: 0;
+    top: 0;
+    bottom: 0;
+     z-index: -1;
+}
+
+
+.navbar-nav .nav-item button {
+    border-radius: 300px;
+    margin: 5px;
+    padding: -2px;
+    border: 1px solid white;
+    background-color: rgba(236, 184, 184, 0.393);
+    color: rgb(102, 227, 227);
+  
+}
+
+a {
+    color: rgb(134, 186, 235);
+}
+
+
+/* INDEX */
+
+#logo {
+    margin-bottom: 40px;
+}
+
+#logo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 200px;
+    width:300px;
+    
+}
+
+#intro h3 {
+    color: #de9df2;
+    text-shadow: 2px 2px 3px black;
+}
+
+#intro p {
+    color: #de9df2;
+    text-shadow: 1px 1px 1px black;
+}
+
+#intro a {
+    text-decoration: none;
+
+}
+
+#carouselExample {
+    width: 600px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+
+
+
+
+/* ABOUT */
+
+.container {
+    margin-top: 40px;
+}
+
+#abouth2 {
+    text-align: center;
+    color: #de9df2;
+    margin-top: 30px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.card {
+    border-radius: 15px;
+    border: 9px solid #de9df2;
+}
+
+#tolink {
+    text-align: center;
+    color: #de9df2;
+    text-shadow: 1px 1px 1px black;
+}
+
+#tolink a {
+    text-decoration: none;
+}
+
+/* LINK */
+#card2 {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 3px solid  white;
+    background-color: #de9df252;
+}
+
+#card2 a {
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+}
+
+#card2 li {
+    background-color:#de9df252;
+}
