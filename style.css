@@ -1,0 +1,169 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: rgb(184, 236, 236);
+    min-height: 100vh;   
+    box-sizing: border-box;
+    
+}
+
+video {
+    width: 100vw;
+     height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+     right: 0;
+    top: 0;
+    bottom: 0;
+     z-index: -1;
+}
+
+
+.navbar-nav .nav-item button {
+    border-radius: 300px;
+    margin: 5px;
+    padding: -2px;
+    border: 1px solid white;
+    background-color: rgba(236, 184, 184, 0.393);
+    color: rgb(102, 227, 227);
+  
+}
+
+a {
+    color: rgb(134, 186, 235);
+}
+
+
+/* INDEX */
+
+
+#intro {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: 200px;
+    width:25vw;
+    
+}
+
+#intro h3 {
+    color: #de9df2;
+    text-shadow: 2px 2px 3px black;
+    font-size: 2rem;
+}
+
+#intro p {
+    color: #de9df2;
+    text-shadow: 1px 1px 1px black;
+}
+
+#intro a {
+    text-decoration: none;
+
+}
+
+#carouselExample {
+    width: 40vw;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+
+
+
+
+/* ABOUT */
+
+.container {
+    margin-top: 40px;
+}
+
+#abouth2 {
+    text-align: center;
+    color: #de9df2;
+    margin-top: 30px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.card {
+    border-radius: 15px;
+    border: 9px solid #de9df2;
+    width: 18rem;
+}
+
+#tolink {
+    text-align: center;
+    color: #de9df2;
+    text-shadow: 1px 1px 1px black;
+}
+
+#tolink a {
+    text-decoration: none;
+}
+
+/* LINK */
+#card2 {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 3px solid  white;
+    background-color: #de9df252;
+}
+
+#card2 a {
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+}
+
+#card2 li {
+    background-color:#de9df252;
+}
+
+/* MEDIA QUERIS */
+@media only screen and (max-width: 780px) {
+
+    /*INDEX*/
+    .colonn {
+        flex-direction: row;
+    }
+
+   
+
+    #intro {
+        width: 90vw;
+        height: 30vh;
+        margin: 0 auto;
+    }
+
+   #carouselExample {
+    width: 90vw;
+    margin: 0 auto;
+   }
+
+    /* ABOUT */
+    .conta {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: -50 !important;
+        height: 50vh;
+       
+    }
+
+   
+
+
+}
